@@ -8,17 +8,17 @@ For this lab you will be getting into pairs and working together. One person sho
 
 ### How does pairing work?
 
-> Put simply, *"One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. **The two programmers switch roles frequently.**" (from Wikipedia) *
+> Put simply, _"One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. **The two programmers switch roles frequently.**" (from Wikipedia) _
 
-Think of the driver and navigator as guidelines for your roles. You will both verbalize your problem-solving thought process *and also* act as a sounding board for the person you work with. Make sure to *strive for a balance* of coming up with ideas and listening to the ideas of your partner.
+Think of the driver and navigator as guidelines for your roles. You will both verbalize your problem-solving thought process _and also_ act as a sounding board for the person you work with. Make sure to _strive for a balance_ of coming up with ideas and listening to the ideas of your partner.
 
-People tend to feel more self-conscious and mistake-prone when people are watching over our shoulder. The role of the navigator isn't necessarily to *critically review* the code the driver is typing in, but has a more holistic role of guiding the conversation and relieving the driver of some of the cognitive labor.
+People tend to feel more self-conscious and mistake-prone when people are watching over our shoulder. The role of the navigator isn't necessarily to _critically review_ the code the driver is typing in, but has a more holistic role of guiding the conversation and relieving the driver of some of the cognitive labor.
 
 ## Lab Exercise
 
 ![ASCII picture of English lab puppy](https://i.imgur.com/noXrPGv.png)
 
-> *from [the npm package `getdogs`](https://www.npmjs.com/package/getdogs)*.
+> _from [the npm package `getdogs`](https://www.npmjs.com/package/getdogs)_.
 
 For this exercise, we're going to do something more manageable than the photorealistic ASCII art shown above. We're going to draw a few shapes using `for` loops in the browser console using `console.log()`. The exercise contains four parts, but the basic `for` loop can re-used with each part of this lab.
 
@@ -59,19 +59,20 @@ Draw a square using a for-loop. You may build a 10x10 square to start, but you a
 > You can also use different emojis!
 
 ```
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
-😶😐😑😬😯😮😲☺️😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
+😶😐😑😬😯😮😲😅😊🙂
 ```
 
 ### Part II: ASCII Art Triangle
+
 ```
 🔼
 🔼🔼
@@ -93,17 +94,18 @@ VV
 V
 ```
 
-There are two simple approaches to this problem that come to mind... 
+There are two simple approaches to this problem that come to mind...
 
 #### Rows in an Array
+
 One might involve storing each row in an array, iterating over the array with a for-loop, and printing out each item in the array in a for loop.
 
-> Run this code in your browser console (CMD+OPT+I in *Chrome*)
+> Run this code in your browser console (CMD+OPT+I in _Chrome_)
 
 ```js
-var kardashians = ['Kim', 'Khloé', 'Kourtney']
+var kardashians = ["Kim", "Khloé", "Kourtney"];
 for (var index = 0; index < kardashians.length; index++) {
-  console.log(kardashians[index])
+  console.log(kardashians[index]);
 }
 ```
 
@@ -114,19 +116,20 @@ For loops are often used to iterate over arrays, meaning to go through an array,
 String concatenation is a complicated-sounding way of saying joining strings together.
 
 Try playing around with the examples below...
-```js
-var coolWord = 'spatula'
-console.log(coolWord)
-var coolWords = 'spatula' + ' city'
-console.log(coolWords)
 
-var buildMeUpString = ''
-buildMeUpString = buildMeUpString + 'I came from nothing!'
-console.log(buildMeUpString)
-buildMeUpString += ' Now I have 2 sentences!'
-console.log(buildMeUpString)
-buildMeUpString += ' I am growing so quickly.'
-console.log(buildMeUpString)
+```js
+var coolWord = "spatula";
+console.log(coolWord);
+var coolWords = "spatula" + " city";
+console.log(coolWords);
+
+var buildMeUpString = "";
+buildMeUpString = buildMeUpString + "I came from nothing!";
+console.log(buildMeUpString);
+buildMeUpString += " Now I have 2 sentences!";
+console.log(buildMeUpString);
+buildMeUpString += " I am growing so quickly.";
+console.log(buildMeUpString);
 ```
 
 ### Part III: ASCII Art Pyramid
@@ -148,19 +151,19 @@ The modulus operator `%` determine how much of a remainder is left after perform
 We can determine the **parity**, or whether or not a number is even, by checking to see if it is divisible by 2. You have already seen this for fizzbuzz with 3 and 5.
 
 ```js
-var number = 2
-var otherNumber = 3
+var number = 2;
+var otherNumber = 3;
 
 if (number % 2 === 0) {
-  console.log('number is even')
+  console.log("number is even");
 } else {
-  console.log('number is odd')
+  console.log("number is odd");
 }
 
 if (otherNumber % 2 === 0) {
-  console.log('otherNumber is even')
+  console.log("otherNumber is even");
 } else {
-  console.log('otherNumber is odd')
+  console.log("otherNumber is odd");
 }
 ```
 
@@ -186,18 +189,16 @@ WWWWWWW
    W
 ```
 
-
 ### Part IV: Calendar (Bonus)
-
 
 > Example, Jan 2018
 
 ```
-Su Mo Tu We Th Fr Sa 
-    1  2  3  4  5  6 
- 7  8  9 10 11 12 13 
-14 15 16 17 18 19 20 
-21 22 23 24 25 26 27 
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
 28 29 30 31
 ```
 
@@ -206,6 +207,6 @@ It may be helpful to define some constant values for use with your `for` loop.
 > Hint...
 
 ```js
-const DAYS_IN_MONTH = 31
-const DAYS_IN_WEEK = 7
+const DAYS_IN_MONTH = 31;
+const DAYS_IN_WEEK = 7;
 ```
