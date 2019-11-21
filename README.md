@@ -4,7 +4,7 @@
 
 ## Instructions
 
-For this lab you will be getting into pairs and working together. One person should fork the repository and add their partner as a collaborator. Work on one computer at a time, ensuring that you alternate and switch drivers at some point.
+For this lab you will be getting into pairs and working together. 
 
 ### How does pairing work?
 
