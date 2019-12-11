@@ -1,7 +1,5 @@
 # ASCII Art
 
-> feat. `for` loops and pair programming
-
 ## Lab Exercise
 
 ![ASCII picture of English lab puppy](https://i.imgur.com/noXrPGv.png)
