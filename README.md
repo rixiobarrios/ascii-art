@@ -2,18 +2,6 @@
 
 > feat. `for` loops and pair programming
 
-## Instructions
-
-For this lab you will be getting into pairs and working together. 
-
-### How does pairing work?
-
-> Put simply, _"One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. **The two programmers switch roles frequently.**" (from Wikipedia) _
-
-Think of the driver and navigator as guidelines for your roles. You will both verbalize your problem-solving thought process _and also_ act as a sounding board for the person you work with. Make sure to _strive for a balance_ of coming up with ideas and listening to the ideas of your partner.
-
-People tend to feel more self-conscious and mistake-prone when people are watching over our shoulder. The role of the navigator isn't necessarily to _critically review_ the code the driver is typing in, but has a more holistic role of guiding the conversation and relieving the driver of some of the cognitive labor.
-
 ## Lab Exercise
 
 ![ASCII picture of English lab puppy](https://i.imgur.com/noXrPGv.png)
